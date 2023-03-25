@@ -71,6 +71,12 @@ header nav a:hover{
     color: #EBF0CF;
 }
 
+/* subpage hero image */
+
+#hero-img {
+    width: 100%;
+}
+
 /* main body styles */
 .card-img {
     width: 300px;
