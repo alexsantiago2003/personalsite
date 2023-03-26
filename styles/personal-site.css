@@ -24,6 +24,7 @@
 }
 
 #content {
+    min-width: 1100px;
     max-width: 1600px;
     margin: 0 auto;
     background-color: #EBF0CF;
@@ -91,6 +92,9 @@ header nav a:hover{
     grid-column:4/8;
     grid-row:2/4;
     z-index: 2;
+    border: solid #1A3841;
+    border-width: 10px;
+    border-radius: 30px;
 }
 
 #filler {
@@ -112,11 +116,10 @@ header nav a:hover{
 #main-content p {
     font-family: var(--paragraph-font);
     grid-row: 5/6;
-    grid-column: 3/9;
+    grid-column: 2/10;
     z-index: 3;
-    font-size: 2em;
+    font-size: 20px;
 }
-
 
 /* main body styles */
 
@@ -156,6 +159,7 @@ header nav a:hover{
     grid-column: 3/-3;
     grid-row: 2/3;
     text-align: center;
+    border-radius: 10px;
 }
 
 .password-card {
